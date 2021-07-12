@@ -1,4 +1,4 @@
-### Personal information
+# Personal information
 
 ## **Name**
 
