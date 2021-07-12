@@ -38,8 +38,8 @@ console.log(minInArray([1, 2, 3, -1, 4, 5, 6]))
 ```
 6. ## **Projects**
 
-[learning project (HTML, CSS,](https://github.com/reido0/FE12-wk-1-Matveev-Anton.git)
-[learning project (HTML, CSS,](https://github.com/reido0/FE12-wk-2-Matveev-Anton.git)
+[learning project (HTML, CSS](https://github.com/reido0/FE12-wk-1-Matveev-Anton.git)
+[learning project (HTML, CSS](https://github.com/reido0/FE12-wk-2-Matveev-Anton.git)
 
 7. ## **Education**
 
