@@ -44,8 +44,7 @@ console.log(minInArray([1, 2, 3, -1, 4, 5, 6]))
 7. ## **Education**
 
     * University (BNTU) specialty power engineer
-    * Completed online course Front End developer from TMS
-    (https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-minsk)
+    * Completed online course Front End developer from [TMS](https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-minsk)
 
 8. ## **English**
 
