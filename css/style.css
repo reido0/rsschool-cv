@@ -66,10 +66,10 @@ time {
 }
 
 .main-info-title-wrapper {
-    width: 400px;
-    justify-content: center;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    width: 400px;
 }
 
 .main-info-avatar {
