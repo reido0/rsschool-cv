@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li::before {
+    content: '*';
+    margin-right: 10px;
+}
+
+li,
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a {
+    color: rgb(95, 138, 204);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    margin: 0 auto;
+    max-width: calc(1024px - 30px);
+    padding: 0 15px;
+    width: 100%;
+}
+
+.section-with-margin {
+    margin-top: 15px;
+}
+
+.container {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s;
+    padding: 15px 0;
+}
+
+.container:hover {
+    box-shadow: -0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    color: rgb(7, 7, 7);
+    transform: scale(1.1);
+}
+
+/* ****************************************************************************************** */
+.header-container {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+}
+
+.header-avatar {
+    overflow: hidden;
+    position: relative;
+}
+
+.header-avatar img {
+    width: 100%;
+}
+
+.header-title h1 {
+    margin-bottom: 10px;
+}
+
+.header-title h2 {
+    margin-bottom: 20px;
+}
+
+.header-list {
+    margin-bottom: 15px;
+}
+
+/* ****************************************************************************************** */
+.left-column {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    padding: 0 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.right-column {
+    flex-grow: 1;
+    padding: 0 15px;
+}
+
+/* ****************************************************************************************** */
+.footer-container {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
+.footer-container a {
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    opacity: 0.8;
+}
+
+.footer-time {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 30px;
+}
+
+.footer-rsschool {
+    width: 50px;
+}
+
+.footer-github {
+    width: 20px;
+}
+
+.footer-github img,
+.footer-rsschool img {
+    width: 100%;
+}
