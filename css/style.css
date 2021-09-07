@@ -7,6 +7,7 @@
 body,
 html {
     font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -26,7 +27,7 @@ ul {
 }
 
 li::before {
-    content: '*';
+    content: "*";
     margin-right: 10px;
 }
 
@@ -81,6 +82,12 @@ a:hover {
 .header-avatar {
     overflow: hidden;
     position: relative;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    padding: 0 15px;
+    text-align: center;
+    width: 300px;
 }
 
 .header-avatar img {
@@ -107,9 +114,11 @@ a:hover {
     padding: 0 15px;
     text-align: center;
     width: 300px;
+    background-color: #c5d7ff;
 }
 
 .right-column {
+    border-left: 2px solid #202020;
     flex-grow: 1;
     padding: 0 15px;
 }
@@ -150,4 +159,14 @@ a:hover {
 .footer-github img,
 .footer-rsschool img {
     width: 100%;
+}
+/* ****************************************************************************************** */
+@media (max-width: 768px) {
+    .page {
+        min-width: 550px;
+    }
+
+    .container-code {
+        flex-wrap: wrap;
+    }
 }
