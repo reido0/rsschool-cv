@@ -9,141 +9,167 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
-    <header class="section">
-        <div class="header-container">
-            <div class="left-column header-avatar">
-                <img src="./img/avatar.jpg" alt="Anton Matveev">
-            </div>
-            <div class="right-column">
-                <div class="header-title">
-                    <h1>Anton Matveev</h1>
-                    <h2>Contacts:</h2>
-                </div>
-                <div class="header-list">
-                    <ul>
-                        <li>Telegram: @reido0</li>
-                        <li>GitHub: reido0</li>
-                        <li>E-mail: reido@mail.ru</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section class="section section-with-margin">
-            <div class="container">
-                <div class="left-column">
-                    <h2>About</h2>
+    <div class="page">
+        <header class="section">
+            <div class="header-container">
+                <div class="header-avatar">
+                    <img src="./img/avatar.jpg" alt="Anton Matveev">
                 </div>
                 <div class="right-column">
-                    <p>I have several specialties: power engineer and sound engineer. I want to gain new experience and
-                        knowledge in the development of Front End, JavaScript. Sociable and purposeful.</p>
+                    <div class="header-title">
+                        <h1>Anton Matveev</h1>
+                        <h2>Contacts:</h2>
+                    </div>
+                    <div class="header-list">
+                        <ul>
+                            <li>Telegram: @reido0</li>
+                            <li>GitHub: reido0</li>
+                            <li>E-mail: reido@mail.ru</li>
+                        </ul>
+                    </div>
+                    <nav class="header-navigation">
+                        <div class="header-title">
+                            <h2>Menu:</h2>
+                        </div>
+                        <ul class="header-menu">
+                            <li> <a class="header-menu__item" href="#about">About</a>
+                            </li>
+                            <li><a class="header-menu__item" href="#expirience">Expirience</a>
+                            </li>
+                            <li><a class="header-menu__item" href="#code">Code example</a>
+                            </li>
+                            <li><a class="header-menu__item" href="#project">Project</a>
+                            </li>
+                            <li><a class="header-menu__item" href="#education">Education</a>
+                            </li>
+                            <li><a class="header-menu__item" href="#english">English</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <div class="left-column">
-                    <h2>Expirience</h2>
+        </header>
+        <main>
+            <section class="section section-with-margin" id="about">
+                <div class="container">
+                    <div class="left-column">
+                        <h2>About</h2>
+                    </div>
+                    <div class="right-column">
+                        <p>I have several specialties: power engineer and sound engineer. I want to gain new experience
+                            and
+                            knowledge in the development of Front End, JavaScript. Sociable and purposeful.</p>
+                    </div>
                 </div>
-                <div class="right-column">
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS (SCSS)</li>
-                        <li>JavaScript</li>
-                        <li>Git</li>
-                        <li>Photoshop</li>
-                        <li>Cubase</li>
-                    </ul>
+            </section>
+            <section class="section" id="expirience">
+                <div class="container">
+                    <div class="left-column">
+                        <h2>Expirience</h2>
+                    </div>
+                    <div class="right-column">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS (SCSS)</li>
+                            <li>JavaScript</li>
+                            <li>Git</li>
+                            <li>Photoshop</li>
+                            <li>Cubase</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <div class="left-column">
-                    <h2>Code example</h2>
-                </div>
-                <div class="right-column">
-                    <code>
-function minInArray(array) {
-    let min = array[1];
-
-    for (let i = 1; i  &lt; array.length; i++) {
-        if (min > array[i]) {
-            min = array[i];
-        } continue;
+            </section>
+            <section class="section" id="code">
+                <div class="container container-code">
+                    <div class="left-column">
+                        <h2>Code example</h2>
+                    </div>
+                    <div class="right-column code">
+                        <pre><code>
+    function minInArray(array) {
+        let min = array[1];
+    
+        for (let i = 1; i  &lt; array.length; i++) {
+            if (min > array[i]) {
+                min = array[i];
+            } continue;
+        }
+        
+        return min;
     }
     
-    return min;
-}
-
-console.log(minInArray([1, 2, 3, -1, 4, 5, 6]))
-                    </code>
+    console.log(minInArray([1, 2, 3, -1, 4, 5, 6]))
+                        </code></pre>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <div class="left-column">
-                    <h2>Project</h2>
-                </div>
-                <ul class="right-column">
-                    <li>
-                        <a href="https://github.com/reido0/FE12-wk-1-Matveev-Anton.git">learning project 1 (HTML,
-                            CSS)</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/reido0/FE12-wk-2-Matveev-Anton.git">learning project 2 (HTML,
-                            CSS)</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <div class="left-column">
-                    <h2>Education</h2>
-                </div>
-                <div class="right-column">
-                    <ul>
-                        <li>University (BNTU) specialty power engineer</li>
-                        <li>Completed online course Front End developer from <a
-                                href="https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-minsk">[TMS]</a>
+            </section>
+            <section class="section" id="project">
+                <div class="container">
+                    <div class="left-column">
+                        <h2>Project</h2>
+                    </div>
+                    <ul class="right-column">
+                        <li>
+                            <a href="https://reido0.github.io/FE12-wk-1-Matveev-Anton/">learning project 1 (HTML,
+                                CSS)</a>
+                        </li>
+                        <li>
+                            <a href="https://reido0.github.io/FE12-wk-2-Matveev-Anton/">learning project 2 (HTML,
+                                CSS)</a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <div class="left-column">
-                    <h2>English</h2>
+            </section>
+            <section class="section" id="education">
+                <div class="container">
+                    <div class="left-column">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="right-column">
+                        <ul>
+                            <li>University (BNTU) specialty power engineer</li>
+                            <li>Completed online course Front End developer from <a
+                                    href="https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-minsk">[TMS]</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="right-column">
-                    <p>A1 - A2</p>
-                    <p>I understand the speech well, I translate the text.</p>
+            </section>
+            <section class="section" id="english">
+                <div class="container">
+                    <div class="left-column">
+                        <h2>English</h2>
+                    </div>
+                    <div class="right-column">
+                        <p>A1 - A2</p>
+                        <p>I understand the speech well, I translate the text.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="section section-with-margin">
+            <div class="footer-container">
+                <div class="footer-github">
+                    <a href="https://github.com/reido0">
+                        <img src="./img/GitHub-Mark-120px-plus.png" alt="GitHub">
+                    </a>
+                </div>
+                <time class="footer-time" datetime="2021-07-13">2021</time>
+                <div class="footer-rsschool">
+                    <a href="https://rs.school/js/">
+                        <img src="./img/rs_school_js.svg" alt="RS School">
+                    </a>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer class="section section-with-margin">
-        <div class="footer-container">
-            <div class="footer-github">
-                <a href="https://github.com/reido0">
-                    <img src="./img/GitHub-Mark-120px-plus.png" alt="GitHub">
-                </a>
-            </div>
-            <time class="footer-time" datetime="2021-07-13">2021</time>
-            <div class="footer-rsschool">
-                <a href="https://rs.school/js/">
-                    <img src="./img/rs_school_js.svg" alt="RS School">
-                </a>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
+
 </body>
 
 </html>
