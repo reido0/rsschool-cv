@@ -47,8 +47,7 @@ a:hover {
 }
 
 .section {
-    margin: 0 auto;
-    max-width: calc(1024px - 30px);
+    background-color: #eeeeee;
     padding: 0 15px;
     width: 100%;
 }
@@ -58,10 +57,12 @@ a:hover {
 }
 
 .container {
-    background-color: rgb(238, 238, 238);
+    margin: auto;
+    /* background-color: #eeeeee; */
     display: flex;
     flex-direction: row;
     transition: 0.3s;
+    max-width: calc(1024px - 30px);
     padding: 15px 0;
 }
 
@@ -73,9 +74,11 @@ a:hover {
 
 /* ****************************************************************************************** */
 .header-container {
-    background-color: rgb(238, 238, 238);
+    margin: auto;
+    background-color: #eeeeee;
     display: flex;
     flex-direction: row;
+    max-width: calc(1024px - 30px);
     padding: 15px 0;
 }
 
@@ -125,10 +128,12 @@ a:hover {
 
 /* ****************************************************************************************** */
 .footer-container {
-    background-color: rgb(238, 238, 238);
+    margin: auto;
+    background-color: #eeeeee;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: calc(1024px - 30px);
     padding: 15px;
 }
 
